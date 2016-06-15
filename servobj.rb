@@ -5,7 +5,7 @@ class MoveMaker
       @human = human
     end
 
-    def welcome
+    def self.welcome
       puts "Welcome to tic-tac-toe! Please enter your name."
       #getName
       @name =  gets.chomp
