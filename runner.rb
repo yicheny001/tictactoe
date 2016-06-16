@@ -9,7 +9,7 @@ class Runner
   MoveMaker.play
 end
 
-
+game = Runner.new
 
 
 
